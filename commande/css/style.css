@@ -1,0 +1,52 @@
+#formulaire{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+    padding-bottom: 20px;
+}
+.formsection{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.question{
+	display: flex;
+}
+label{
+	width:30%;
+    margin: auto;
+}
+input{
+	width:60%
+}
+.deco{
+    width: auto;
+}
+.deco2{
+    padding-bottom: 20px;
+}
+h1{
+    margin: auto;
+}
+img{
+    margin: auto;
+}
+@media only screen and (min-width: 768px) and (max-width: 1000px){
+	body {
+	  background-color: red;
+	}
+  }
+
+  @media only screen and (min-width: 1000px){
+	body {
+	  background-color: blue;
+	  color: white;
+	  font-size: 30px;
+	}
+	#formulaire{
+		flex-direction: row;
+	}
+	.formsection{
+		width:50%;
+	}
+  }

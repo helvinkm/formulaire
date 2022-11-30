@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Commande</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<h1> Formulaire de Commande</h1>
+<img src= "img/carte.png" alt="cartes bancaires">
+<form id="formulaire">
+	<section class="formsection" id="infoperso">
+		<div class="question">
+            <select>
+                <option>Madame</option>
+                <option>Monsieur</option>
+                <option>Autre</option>
+            </select>
+		</div>
+        <div class="question">
+          	<label>Nom</label>
+			<input type="text">
+		</div>
+
+		<div class="question">
+			<label>Prénom</label>
+			<input type="text">
+		</div>	
+
+		<div class="question">
+			<label>Date de naissance</label>
+			<input type="date">
+		</div>
+        <div class="question">
+			<label>E-Mail</label>
+			<input type="email">
+		</div>
+        <div class="question">
+			<label>Tél</label>
+			<input type="tel">
+		</div>
+	</section>
+
+	<section class="formsection" id="livraison">
+		<div class="question">
+			<label>Adresse</label>
+			<input type="text">
+		</div>
+
+		<div class="question">
+			<label>Code postal</label>
+			<input type="number">
+		</div>	
+
+		<div class="question">
+			<label>Ville</label>
+			<input type="text">
+		</div>	
+	</section>
+    <section class="formsection" id="paiement">
+		<div class="question">
+			<label>Nom du titulaire</label>
+			<input type="text">
+		</div>
+
+		<div class="question">
+			<label>Numéro de carte</label>
+			<input type="text">
+		</div>	
+
+		<div class="question">
+			<label>Date Exp</label>
+			<input type="date">
+		</div>	
+        <div class="question">
+			<label>Code de sécurité</label>
+			<input type="number">
+		</div>
+	</section>
+</form>
+<input class="deco" type="checkbox"> j'accepte les termes et conditions et la politique de confidentialité
+<div class="deco2">
+    <button type="submit">VALIDER</button> 
+</div>
+</body>
+</html>
